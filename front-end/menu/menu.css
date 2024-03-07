@@ -15,7 +15,7 @@
 }
 .menu-logo img {
     width:115px;
-    height:51px;
+    height:35px;
 }
 
 #menu-search {
@@ -23,6 +23,7 @@
     height: 48px;
     position: relative;
     top:47px;
+
 }
 
 #menu-shopping {
@@ -30,7 +31,7 @@
     height: 67px;
     position: relative;
     top:38px;
-    right: 9px;
+    margin-right: 9px;
 }
 #menu-profile {
     width: 39px;
@@ -59,7 +60,7 @@
 .menu-item a {
     color:#FFFFFF;
     text-decoration: none;
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
 .menu-item a:hover {
