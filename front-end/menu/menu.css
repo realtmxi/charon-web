@@ -1,0 +1,71 @@
+.menu-wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+
+    width:100%;
+    height: 142px;
+    position: relative;
+}
+
+.menu-logo {
+    position: relative;
+    left: 47px;
+    top: 56px;
+}
+.menu-logo img {
+    width:115px;
+    height:51px;
+}
+
+#menu-search {
+    width: 50px;
+    height: 48px;
+    position: relative;
+    top:47px;
+}
+
+#menu-shopping {
+    width: 48px;
+    height: 67px;
+    position: relative;
+    top:38px;
+    right: 9px;
+}
+#menu-profile {
+    width: 39px;
+    height: 36px;
+    position: relative;
+    top: 53px;
+    margin-right: 44px;
+}
+
+.menu-item {
+    font-family: 'Bayon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    
+    color: #FFFFFF;
+    text-align: center;
+
+    position: relative;
+    top: 41px;
+    margin: 0 auto;
+}
+
+
+.menu-item a {
+    color:#FFFFFF;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+.menu-item a:hover {
+    color: #b2f5ea;
+    text-decoration: underline;
+}
+
+
+
