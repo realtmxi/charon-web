@@ -91,7 +91,7 @@
 }
 
 .foot-wrapper1 h2 {
-    font-family: 'Aemstel';
+    font-family: 'Abel', sans-serif;
 }
 .foot-policy {
     width: 210px;
@@ -117,6 +117,12 @@
     margin-left: 15%;
 }
 
+.foot-news h2 {
+    margin-left: 10px;
+}
+.foot-news p {
+    margin-left: 10px;
+}
 .foot-signup {
     box-sizing: border-box;
     width: 123.76px;
@@ -126,6 +132,7 @@
     color: black;
     text-align: center;
     padding: 5px 0;
+    margin-left: 10px;
 }
 
 
@@ -133,14 +140,15 @@
     display: flex;
     flex-direction: row;
     position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
-.foot-social a {
-   margin: 0 5px;
-}
+
 .foot-social img {
     width: 24px;
     height: auto;
+    border-radius: 50%;
 }
 
 .foot-copyright {
@@ -148,12 +156,16 @@
     text-align: center;
 }
 
+#footer-img {
+    margin-top: 10px;
+    width: 470.06px;
+    height: 29.74px;
+}
 
 .foot-wrapper hr {
     position: relative;
     width: 97%;
     border: 1px solid #515151;
-    margin-top: 20px;
 }
 
 
