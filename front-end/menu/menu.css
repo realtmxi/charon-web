@@ -149,9 +149,10 @@
 
 
 .foot-social img {
-    width: 24px;
+    width: 30px;
     height: auto;
     border-radius: 50%;
+    margin-left: 1px;
 }
 
 .foot-copyright {
