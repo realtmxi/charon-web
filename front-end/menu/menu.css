@@ -70,6 +70,11 @@
     text-decoration: underline;
 }
 
+.menu-item a.active {
+    text-decoration: underline;
+    color: #b2f5ea; /* You can change the color if needed */
+}
+
 /* menu footer */
 .foot-wrapper {
     display: flex;
@@ -101,8 +106,10 @@
 
     position: relative;
     margin-left: 72px;
+}
 
-
+.foot-policy h2 {
+    padding-bottom: 15px;
 }
 
 .foot-service {
@@ -170,6 +177,7 @@
     position: relative;
     width: 97%;
     border: 1px solid #515151;
+    margin-top: 25px;
 }
 
 
