@@ -118,16 +118,13 @@ font-size: 20px;
 
 .products {
     margin-left: 95px;
+    width: calc(100% - 95px);
 }
 
-.product-item {
+.product-item, .product-item-sale {
     display: inline-block;
     margin-right: 75px;
-}
-
-.product-item-sale {
-    display: inline-block;
-    margin-right: 75px;
+    width: calc(24% - 75px);
 }
 
 .overlay-square1, .overlay-square2 {
@@ -182,10 +179,10 @@ margin-bottom: 5px;
     font-size: 16px;
 }
 
-
-.product-price-amount {
+.product-item-sale .product-price-amount {
     color: #C13C7C;
 }
+
 
 .product-price-discount {
     color: #A3A3A3;
