@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.cdnfonts.com/css/bertha');
-
+@import url('https://fonts.googleapis.com/css?family=Bayon');
 /* more wrapper */
 .see-more {
     box-sizing: border-box;
@@ -92,3 +92,195 @@
         color: black;
     }
 
+
+/* End of more wrapper */
+
+
+.cart-summary-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Checkout Cart */
+.cart-wrapper {
+    font-family: 'Work Sans';
+    color: #000000;
+    margin-left: 137px;
+    position: relative;
+    flex: 0 0 50%;
+}
+
+.cart-wrapper h2 {
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.cart-wrapper hr {
+    border: 1px solid #000000;
+    margin-bottom: 31px;
+}
+
+.checkout-item, .checkout-item-sale {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkout-item1 {
+    width: 134px;
+    height: 135px;
+    margin-left: 32px;
+}
+
+.checkout-item2 {
+    margin-left: 62px;
+}
+.checkout-item2-1 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.checkout-item2-2 {
+    font-weight: 300;
+    font-size: 14px;
+    color: #454545;
+    margin-bottom: 5px;
+}
+
+.checkout-item2-3 {
+    margin-top: 12px;
+}
+
+.checkout-item3 {
+    position: absolute;
+    right: 25px;
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.cart-wrapper .checkout-sep {
+    border: 0.7px solid #CCCCCC;
+}
+
+
+.checkout-item2-1-1 {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #C13C7C;
+}
+
+.checkout-item-sale > .checkout-item3 {
+    font-family: 'Abel';
+    font-weight: 400;
+    font-size: 22px;
+    color: #C13C7C;
+}
+
+.checkout-item3-1 {
+    text-decoration: line-through;
+}
+
+.checkout-item3-1 {
+    color: #a3a3a3;
+}
+/* Summary part */
+.summary-wrapper {
+    flex: 0 0 30%;
+    margin-right: 137px;
+    margin-left: 60px;
+    font-family: 'Work Sans';
+    color: #000000;
+}
+
+.summary-wrapper h2 {
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.summary-header-2 {
+    font-family: 'Work Sans';
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+
+.summary-wrapper hr {
+    border: 1px solid #000000;
+    margin-bottom: 31px;
+}
+
+
+.summary-wrapper .summary-sep {
+    border: 0.7px solid #CCCCCC;
+}
+
+.summary-gift {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.summary-ship {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.circle-container .c100 {
+    margin: 20px;
+}
+
+.summary-gift-text, .summary-ship-text {
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.summary-ship-text2 {
+    color: #D11464;
+}
+
+.summary-gift-text2 {
+    color: #5CD114;
+}
+
+.summary-section-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+
+}
+
+
+.summary-section-1 {
+    margin-left: 10px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.summary-section-2 {
+    margin-right: 10px;
+    font-family: 'Abel';
+    font-weight: 400;
+    font-size: 21px;
+}
+
+
+.summary-wrapper hr {
+    border: 1px solid #000000;
+    margin-top: 20px;
+}
