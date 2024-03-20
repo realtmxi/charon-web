@@ -117,8 +117,10 @@ font-size: 20px;
 
 
 .products {
+    position: relative;
     margin-left: 95px;
     width: calc(100% - 95px);
+    margin-bottom: 100px;
 }
 
 .product-item, .product-item-sale {
@@ -206,5 +208,8 @@ margin-bottom: 5px;
     font-weight: 300;
     font-size: 18px;
     margin-top: 60px;
-    margin-left: 42%;
+    /* margin-left: 42%; */
+    left: calc(50% - 62px);
+    transform: translateX(-50%);
+    position: absolute;
 }
