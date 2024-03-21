@@ -107,6 +107,7 @@
     font-family: 'Work Sans';
     color: #000000;
     margin-left: 137px;
+    margin-top: 25px;
     position: relative;
     flex: 0 0 50%;
 }
@@ -196,6 +197,7 @@
     flex: 0 0 30%;
     margin-right: 137px;
     margin-left: 60px;
+    margin-top: 25px;
     font-family: 'Work Sans';
     color: #000000;
 }

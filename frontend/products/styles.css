@@ -2,6 +2,10 @@
 @import url('https://fonts.cdnfonts.com/css/bertha');
 @import url('https://fonts.cdnfonts.com/css/abel');
 
+body {
+    margin: 0;
+}
+
 .product-filter {
     position: relative;
     width: 235px;
@@ -84,6 +88,7 @@
 .product-wrapper {
     display: flex;
     flex-direction: row;
+    margin-top: 50px;
 }
 
 .product-header {
