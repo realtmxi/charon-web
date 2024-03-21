@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./styles.css" />
         <link rel="stylesheet" href="../menu/menu.css" />
         <link href='https://fonts.googleapis.com/css?family=Bayon' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -28,14 +29,344 @@
                     </nav>
                 </div>
                 
-                
-                <img id="menu-search" src="../menu/images/menu-img1.png" alt="" />
+
+                <img id="menu-search" src="../menu/images/menu-img1.png" alt=""/>
                 <a href="../checkout/checkout.html">
                     <img id="menu-shopping" src="../menu/images/menu-img2.png" alt="" />
                 </a>
                 <img id="menu-profile" src="../menu/images/menu-img3.png" alt="" />
             </div>
         </header>
+
+        <!-- <p id="free-ship">
+            Free shipping for purchases over $69.99
+        </p> -->
+
+        <div id="search-interface" class="hidden">
+            <input type="text" id="search-input" placeholder=""/>
+            <button id="search-button">
+                <img src="../menu/images/menu-search.png" alt="">
+            </button>
+        </div>
+
+        <div class="product-wrapper">
+
+            <div class="product-filter">
+                <div class="filter-header">
+                    Filter
+                </div>
+                <div class="filter-type">Types</div>
+                <hr>
+                <div class="filter-type">Color</div>
+                <hr>
+                <div class="filter-type">Price</div>
+                <hr>
+                
+                <div class="filter-order-wrapper">
+                    <div class="filtered-order">
+                        <div class="filtered-square"></div>
+                        From low to high
+                    </div>
+                    <div class="filter-order">
+                        <div class="filter-square"></div>
+                        From high to low
+                    </div> 
+        
+                    <div class="filter-order">
+                        <div class="filter-square"></div>
+                        $0 - $10
+                    </div> 
+                </div>
+            </div>
+            
+            <div class="products">
+                <div class="product-header">
+                    <span class="product-header-title">LINGERIE</span>
+                    <span class="product-header-arrow"> > </span>
+                    <span class="product-header-class"> Silk stockings</span>
+                    <span class="product-header-count">(65 products)</span>
+                </div>
+                <div class="product-row">
+                    <div class="product-item-sale">
+                        <div class="overlay-square1"></div>
+                        <div class="overlay-square2"></div>
+                        <a href="../detail/detail.html">
+                            <img src="./images/item.png" alt="product-item" />
+                        </a>
+                        
+                        <div class="product-name">Butterfly Lingerie</div>
+                        <div class="product-color">
+                            <span class="product-color-square"></span>
+                            <span class="product-color-square"></span>
+                        </div>
+                        <div class="product-rate">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="product-price">
+                            <span class="product-price-cad">CAD</span>
+                            <span class="product-price-amount">$19.99</span>
+                            <span class="product-price-discount">$23.99</span>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <a href="../detail/detail.html">
+                            <img src="./images/item.png" alt="product-item" />
+                        </a>
+                        <div class="product-name">Butterfly Lingerie</div>
+                        <div class="product-color">
+                            <span class="product-color-square"></span>
+                            <span class="product-color-square"></span>
+                        </div>
+                        <div class="product-rate">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="product-price">
+                            <span class="product-price-cad">CAD</span>
+                            <span class="product-price-amount">$19.99</span>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <a href="../detail/detail.html">
+                            <img src="./images/item.png" alt="product-item" />
+                        </a>
+                        <div class="product-name">Butterfly Lingerie</div>
+                        <div class="product-color">
+                            <span class="product-color-square"></span>
+                            <span class="product-color-square"></span>
+                        </div>
+                        <div class="product-rate">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="product-price">
+                            <span class="product-price-cad">CAD</span>
+                            <span class="product-price-amount">$19.99</span>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <a href="../detail/detail.html">
+                            <img src="./images/item.png" alt="product-item" />
+                        </a>
+                        <div class="product-name">Butterfly Lingerie</div>
+                        <div class="product-color">
+                            <span class="product-color-square"></span>
+                            <span class="product-color-square"></span>
+                        </div>
+                        <div class="product-rate">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="product-price">
+                            <span class="product-price-cad">CAD</span>
+                            <span class="product-price-amount">$19.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-row">
+                    <div class="product-item">
+                        <a href="../detail/detail.html">
+                            <img src="./images/item.png" alt="product-item" />
+                        </a>
+                        <div class="product-name">Butterfly Lingerie</div>
+                        <div class="product-color">
+                            <span class="product-color-square"></span>
+                            <span class="product-color-square"></span>
+                        </div>
+                        <div class="product-rate">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="product-price">
+                            <span class="product-price-cad">CAD</span>
+                            <span class="product-price-amount">$19.99</span>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <a href="../detail/detail.html">
+                            <img src="./images/item.png" alt="product-item" />
+                        </a>
+                        <div class="product-name">Butterfly Lingerie</div>
+                        <div class="product-color">
+                            <span class="product-color-square"></span>
+                            <span class="product-color-square"></span>
+                        </div>
+                        <div class="product-rate">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="product-price">
+                            <span class="product-price-cad">CAD</span>
+                            <span class="product-price-amount">$19.99</span>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <a href="../detail/detail.html">
+                            <img src="./images/item.png" alt="product-item" />
+                        </a>
+                        <div class="product-name">Butterfly Lingerie</div>
+                        <div class="product-color">
+                            <span class="product-color-square"></span>
+                            <span class="product-color-square"></span>
+                        </div>
+                        <div class="product-rate">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="product-price">
+                            <span class="product-price-cad">CAD</span>
+                            <span class="product-price-amount">$19.99</span>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <a href="../detail/detail.html">
+                            <img src="./images/item.png" alt="product-item" />
+                        </a>
+                        <div class="product-name">Butterfly Lingerie</div>
+                        <div class="product-color">
+                            <span class="product-color-square"></span>
+                            <span class="product-color-square"></span>
+                        </div>
+                        <div class="product-rate">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="product-price">
+                            <span class="product-price-cad">CAD</span>
+                            <span class="product-price-amount">$19.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-row">
+                    <div class="product-item">
+                        <a href="../detail/detail.html">
+                            <img src="./images/item.png" alt="product-item" />
+                        </a>
+                        <div class="product-name">Butterfly Lingerie</div>
+                        <div class="product-color">
+                            <span class="product-color-square"></span>
+                            <span class="product-color-square"></span>
+                        </div>
+                        <div class="product-rate">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="product-price">
+                            <span class="product-price-cad">CAD</span>
+                            <span class="product-price-amount">$19.99</span>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <a href="../detail/detail.html">
+                            <img src="./images/item.png" alt="product-item" />
+                        </a>
+                        <div class="product-name">Butterfly Lingerie</div>
+                        <div class="product-color">
+                            <span class="product-color-square"></span>
+                            <span class="product-color-square"></span>
+                        </div>
+                        <div class="product-rate">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="product-price">
+                            <span class="product-price-cad">CAD</span>
+                            <span class="product-price-amount">$19.99</span>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <a href="../detail/detail.html">
+                            <img src="./images/item.png" alt="product-item" />
+                        </a>
+                        <div class="product-name">Butterfly Lingerie</div>
+                        <div class="product-color">
+                            <span class="product-color-square"></span>
+                            <span class="product-color-square"></span>
+                        </div>
+                        <div class="product-rate">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="product-price">
+                            <span class="product-price-cad">CAD</span>
+                            <span class="product-price-amount">$19.99</span>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <a href="../detail/detail.html">
+                            <img src="./images/item.png" alt="product-item" />
+                        </a>
+                        <div class="product-name">Butterfly Lingerie</div>
+                        <div class="product-color">
+                            <span class="product-color-square"></span>
+                            <span class="product-color-square"></span>
+                        </div>
+                        <div class="product-rate">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="product-price">
+                            <span class="product-price-cad">CAD</span>
+                            <span class="product-price-amount">$19.99</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="see-more">
+                    see more
+                </div>
+            </div>
+
+        </div>
         
         <footer>
             <div class="foot-wrapper">
@@ -91,9 +422,9 @@
                     Copyright © 2024 PEEL.ca
                 </div>
             </div>
-
-            
-            
+                       
         </footer>
+        
+        <script src="../menu/menu.js" charset="utf-8"></script>
     </body>
 </html>
