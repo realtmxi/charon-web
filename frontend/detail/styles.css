@@ -170,6 +170,10 @@ font-weight: lighter;
     width: 36px;
     height: 36px;
     margin-right: 16px;
+    text-align: center;
+    line-height: 36px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
 }
 
 .prod-size-sqr:hover {
