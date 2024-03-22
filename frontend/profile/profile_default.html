@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Login</title>
-        <link rel="stylesheet" href="./styles.css" />
+        <title>Profile Account Details</title>
         <link rel="stylesheet" href="../menu/menu.css" />
+        <link rel="stylesheet" href="./styles.css" />
         <link href='https://fonts.googleapis.com/css?family=Bayon' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -28,12 +29,12 @@
                     </nav>
                 </div>
                 
-                
-                <img id="menu-search" src="../menu/images/menu-img1.png" alt="" />
+
+                <img id="menu-search" src="../menu/images/menu-img1.png" alt=""/>
                 <a href="../checkout/checkout.html">
-                <img id="menu-shopping" src="../menu/images/menu-img2.png" alt="" />
+                    <img id="menu-shopping" src="../menu/images/menu-img2.png" alt="" />
                 </a>
-                <a href="../profile/profile_default.html">
+                <a href="profile_default.html">
                     <img id="menu-profile" src="../menu/images/menu-img3.png" alt="" />
                 </a>
             </div>
@@ -46,17 +47,57 @@
             </button>
         </div>
 
-        <h1>
-            Login to your account!
-        </h1>
+        <div class="profile-background">
 
-        <form>
-            <label for="email">Email:</label><br>
-            <input type="text" id="email" name="email"><br>
-            <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password"><br>
-            <input type="submit" value="Login now">
-        </form>
+            <div class="profile-wrapper">
+
+                <div class="profile-sec1">
+                    <div class="profile-sec1-0">Hi, Charon!</div>
+                    <div class="profile-sec1-1" id="profile-active">Account Details</div>
+
+                    <div class="profile-sec1-2">
+                        <a href="./profile_address.html">
+                            Addresses
+                        </a>
+                    </div>
+                    <div class="profile-sec1-2">Orders</div>
+                    
+                    
+                </div>
+                <div class="profile-vl"></div>
+                <div class="profile-sec2">
+                    <div class="profile-sec2-0">Account Details</div>
+                    <div class="profile-sec2-1">E-mail:</div>
+                    <div class="profile-sec2-2">18861309620@qq.com</div>
+                    <div class="profile-sec2-1">Password:</div>
+                    <div class="profile-sec2-3">
+                        <span id="profile-sec2-3-1">***********</span>
+                        <span id="profile-sec2-3-2">edit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hidden edit password container -->
+<div id="edit-password-container" class="hidden">
+    <a href="#" class="close"></a>
+    <div id="edit-password-header">Edit Password</div>
+    <form id="edit-password-form">
+        <div>
+            <input type="password" id="current-password" name="current-password" placeholder="Current Password">
+        </div>
+        <div><input type="password" id="new-password" name="new-password" placeholder="New Password"></div>
+        <div>
+            <input type="password" id="confirm-new-password" name="confirm-new-password" placeholder="Confirm New Password">
+        <div>
+        </div>
+            <button type="submit">Save</button>
+        </div>
+        
+    </form>
+</div>
+
+
         
         <footer>
             <div class="foot-wrapper">
@@ -116,8 +157,7 @@
             
             
         </footer>
-
         <script src="../menu/menu.js" charset="utf-8"></script>
-        
+        <script src="./profile.js" charset="utf-8"></script>
     </body>
 </html>

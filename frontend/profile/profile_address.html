@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Login</title>
-        <link rel="stylesheet" href="./styles.css" />
+        <title>Profile Addresses</title>
         <link rel="stylesheet" href="../menu/menu.css" />
+        <link rel="stylesheet" href="./styles.css" />
         <link href='https://fonts.googleapis.com/css?family=Bayon' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -28,12 +29,12 @@
                     </nav>
                 </div>
                 
-                
-                <img id="menu-search" src="../menu/images/menu-img1.png" alt="" />
+
+                <img id="menu-search" src="../menu/images/menu-img1.png" alt=""/>
                 <a href="../checkout/checkout.html">
-                <img id="menu-shopping" src="../menu/images/menu-img2.png" alt="" />
+                    <img id="menu-shopping" src="../menu/images/menu-img2.png" alt="" />
                 </a>
-                <a href="../profile/profile_default.html">
+                <a href="profile_default.html">
                     <img id="menu-profile" src="../menu/images/menu-img3.png" alt="" />
                 </a>
             </div>
@@ -46,17 +47,29 @@
             </button>
         </div>
 
-        <h1>
-            Login to your account!
-        </h1>
+        <div class="profile-background">
 
-        <form>
-            <label for="email">Email:</label><br>
-            <input type="text" id="email" name="email"><br>
-            <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password"><br>
-            <input type="submit" value="Login now">
-        </form>
+            <div class="profile-wrapper">
+
+                <div class="profile-sec1">
+                    <div class="profile-sec1-0">Hi, Charon!</div>
+                    
+                    <div class="profile-sec1-1">
+                        <a href="./profile_default.html">Account Details</a>
+                    </div>
+                    <div class="profile-sec1-2" id="profile-active">Addresses</div>
+                    <div class="profile-sec1-2">Orders</div>
+                    
+                </div>
+                <div class="profile-vl"></div>
+                <div class="profile-sec2">
+                    <div class="profile-sec2-0">Delivery Addresses</div>
+                    <div class="profile-sec2-1">You have no delivery addresses so far.</div>
+                    <div id="add-address">Add addresses</div>
+                </div>
+            </div>
+        </div>
+
         
         <footer>
             <div class="foot-wrapper">
@@ -116,8 +129,7 @@
             
             
         </footer>
-
         <script src="../menu/menu.js" charset="utf-8"></script>
-        
+        <script src="./profile.js" charset="utf-8"></script>
     </body>
 </html>
