@@ -134,15 +134,23 @@
 }
 .foot-signup {
     box-sizing: border-box;
-    width: 123.76px;
-    height: 28px;
+    width: 125px;
+    height: 30px;
     background: #FFFFFF;
     border: 0.7px solid #FFFFFF;
     color: black;
     text-align: center;
-    padding: 5px 0;
+    line-height: 30px;
+    /* padding: 5px 0; */
     margin-left: 10px;
 }
+
+/* .foot-signup:hover {
+    width: 125px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 400;
+} */
 
 
 .foot-social {
